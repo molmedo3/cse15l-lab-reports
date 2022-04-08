@@ -11,11 +11,14 @@
 
 [Link](http://www.iemoji.com/view/emoji/658/animals-nature/goat)
 
-> Blockquote
+> Hi this is finally working
 
+
+* List 
 * List
 * List
-* List
+
+
 
 
 1. One
@@ -29,6 +32,6 @@
 
 ```
 # code block
-print '3 backticks or'
+print '2 backticks or'
 print 'indent 4 spaces'
 ```

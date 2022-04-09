@@ -35,6 +35,17 @@ Note the "agx" part from above is unique to each student, so I went to the link
 [Account Lookup Tool](https://sdacs.ucsd.edu/~icc/index.php)  and l looked up my username.
 
 
+## Step 3: Trying Some Commands
+
+Once I was logged in, I ran the commands cd, ls -lat, ls-a, pwd, mkdir, and cp. Once I understood what each command did, I tried copying a file, hello.txt, from another cse15l22 account that was not mine using the cp command, but I got a permision denied message (refer to the picture below) because it was not my account.
+
+
+![Image](lab1pt5.png)
+
+
+## Step 4:
+
+
 
 
 

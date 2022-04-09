@@ -60,6 +60,36 @@ Once this file was created I compiled it using javac and java, then ran the comm
 
 ![Image](lab1pt.6.png)
 
+## Step 5: Setting an SSH Key
+
+Next, in order to save the time it takes logging in and logging out constantly, I set up an SSH key, by first running the command "ssh-keygen", typed in y, which generated and I got this output:
+
+![Image](labReportStep6.png)
+
+which generated a the files public key and private key.
+
+Next I copied the public key to the .ssh directory by doing the following in my terminal:
+
+ssh cs15lsp22zz@ieng6.ucsd.edu
+
+Enter Password
+
+now on server
+
+mkdir .ssh
+
+logout
+
+back on client
+
+scp /Users/molmedo/.ssh/id_rsa.pub cs15lsp22agx@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+Once I did this, I logged in again without a password (refer to picture below).
+
+![Image](lab1pt7.png)
+
+
+
 
 
 

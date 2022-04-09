@@ -31,7 +31,9 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 
 ![Image](lab1pt4.png)
 
-    Note the "agx" part from above is unique to each student, so I went to the [Account Lookup Tool](https://sdacs.ucsd.edu/~icc/index.php)  and l looked up my username.
+
+
+- Note the "agx" part from above is unique to each student, so I went to the [Account Lookup Tool](https://sdacs.ucsd.edu/~icc/index.php)  and l looked up my username.
 
 
 ## Step 3: Trying Some Commands
@@ -61,9 +63,7 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 
 - Once this file was created I compiled it using javac and java, then ran the command: 
 
-  scp WhereAmI.java cs15lsp22agx@ieng6.ucsd.edu:~/
-
-  , which then asked me for my password again. 
+  scp WhereAmI.java cs15lsp22agx@ieng6.ucsd.edu:~/, which then asked me for my password again. 
 - Then I logged back into ssh and ran "ls" in which the file WhereAmI.java was listed in my home directory (refer to picture below).
 
 ![Image](lab1pt.6.png)
@@ -79,13 +79,13 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 
     ssh cs15lsp22zz@ieng6.ucsd.edu
 
-    Enter Password
+    *Enter Password*
 
-    now on server
+    *now on server*
 
     mkdir .ssh
 
-    logout
+    *logout using ctrl d or typing in exit*
 
     back on client
 

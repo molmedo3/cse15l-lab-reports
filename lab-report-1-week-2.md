@@ -1,6 +1,6 @@
 # Lab Report 1
 
-This is a tutorial showing how to log into a course specific account on ieng6
+This is a tutorial showing how to log into a course specific account on ieng6.
 
 ## Step 1: Installing Visual Studio Code (VS Code) 
 
@@ -26,15 +26,15 @@ After I opened the new terminal, I typed in the following command:
 
 $ ssh cse15lsp22agx@ieng6.ucsd.edu
 
-and then I typed in my password and successfully connected remotely through my terminal.
+and then I logged in successfully my first time, it did not show me my password (which I was confused with at first), once I figured that out, it showed me my last login, my ip address, and I got a message that tells me I’m logged in and then my cluster status.
 
 ![Image](lab1pt4.png)
 
 Note the "agx" part from above is unique to each student, so I went to the link 
 
-https://sdacs.ucsd.edu/~icc/index.php 
+[Account Lookup Tool](https://sdacs.ucsd.edu/~icc/index.php)  and l looked up my username.
 
-and l looked up my specific username.
+
 
 
 

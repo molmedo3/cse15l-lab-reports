@@ -26,8 +26,8 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 - After I opened the new terminal, I typed in the following command: 
 
     ```
-    $ ssh cs15lsp22agx@ieng6.ucsd.edu
-    ``
+    ssh cs15lsp22agx@ieng6.ucsd.edu
+    ```
 
 and then it asked for my password, but it did not show me my password (which I was confused with at first), once I figured it was normal for security purposes, it showed me my last login, my ip address, and I got a message that told me I was logged in and showed me my cluster status (refer to picture below).
 

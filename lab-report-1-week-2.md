@@ -29,7 +29,7 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
     ssh cs15lsp22agx@ieng6.ucsd.edu
     ```
 
-and then it asked for my password, but it did not show me my password (which I was confused with at first), once I figured it was normal for security purposes, it showed me my last login, my ip address, and I got a message that told me I was logged in and showed me my cluster status (refer to picture below).
+    and then it asked for my password, but it did not show me my password (which I was confused with at first), once I figured it was normal for security purposes, it showed me my last login, my ip address, and I got a message that told me I was logged in and showed me my cluster status (refer to picture below).
 
 ![Image](lab1pt4.png)
 
@@ -77,7 +77,11 @@ which then asked me for my password again.
 
 ## Step 5: Setting an SSH Key
 
-- Next, in order to save the time it takes logging in and logging out constantly, I set up an SSH key, by first running the command "ssh-keygen", typed in y, then pressed enter twice so that I did not make a passphrase, which then generated the files public key and private key and I got this output:
+- Next, in order to save the time it takes logging in and logging out constantly, I set up an SSH key, by first running the command: 
+    ```
+    ssh-keygen
+    ```
+    Then, I typed in y and pressed enter twice so that I did not make a passphrase, which then generated the files public key and private key and I got this output:
 
 ![Image](labReportStep6.png)
 

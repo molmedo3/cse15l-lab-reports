@@ -11,4 +11,4 @@ To fix this, the following changes were made to the code:
 
 ![image](lab2Bug1Fix.png)
 
-The sympton, which was that the heap ran out of memory due to an infinite loop.The failure-inducing input, the file test-file.md, has an extra line in it causing the storing of indexes to be incorrect, because there no brackets or parentheses found in the empty line. The error, or the bug in the code was that it did not account for any possible characters after the closing parenthesis, causing the indexes to be stored incorrectly.
+The sympton, which was that the heap ran out of memory due to an infinite loop was caused by the failure-inducing input, the file test-file.md, becuase it had an extra line in it causing the storing of indexes to be incorrect, because there no brackets or parentheses found in the empty line. The error, or the bug in the code was that it did not account for any possible characters after the closing parenthesis, causing the indexes to be stored incorrectly.

@@ -15,7 +15,7 @@ The sympton, which was that the heap ran out of memory due to an infinite loop, 
 
 ## Code Change 2
 
-The next change made was made as a result of the output when the file, [test2.md](https://raw.githubusercontent.com/molmedo3/markdown-parser/main/test2.md) was tested. This was the symtpon:
+The next change made was made as a result of the output when the file, [test2.md](https://raw.githubusercontent.com/molmedo3/markdown-parser/main/test2.md) was tested. This was the sympton:
 
 ![image](lab2Sympton2.png)
 
@@ -23,7 +23,7 @@ To resolve this, the following changes were made to the code:
 
 ![image](Lab2Bug2Fix.png)
 
-The symptom was an index out of bounds error, resulting from the missing parentheses in the links in the test2 file (the failure-inducing input).The bug was that the code did not account for any cases in which their were no parentheses, which provoked the sympton.
+The symptom was an index out of bounds error, resulting from the missing parentheses in the links in the test2 file (the failure-inducing input). The bug was that the code did not account for any cases in which their were no parentheses, which provoked the sympton.
 
 ## Code Change 3
 

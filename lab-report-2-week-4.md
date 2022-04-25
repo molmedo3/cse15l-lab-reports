@@ -44,4 +44,4 @@ Here is a link to the commits I made:
 
 [Commit Link](https://github.com/molmedo3/markdown-parser/commits/main)
 
-The only relevant commits for this lab report are those made afterthe "Update to Original" commit.
+The only relevant commits for this lab report are those made after the "Update to Original" commit.

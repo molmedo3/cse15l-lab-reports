@@ -24,3 +24,7 @@ To resolve this, the following changes were made to the code:
 ![image](Lab2Bug2Fix.png)
 
 The symptom was an index out of bounds error, resulting from the missing parentheses in the links in the test2 file (the failure-inducing input).The bug was that the code did not account for any cases in which their were no parentheses, which provoked the sympton.
+
+## Code Change 3
+
+This code change was provoked by the output when the test3 file was tested. This was the sympton:

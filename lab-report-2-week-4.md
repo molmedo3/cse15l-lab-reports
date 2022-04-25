@@ -3,7 +3,7 @@
 This lab will show code changes made to the file [MarkdownParse.java](https://github.com/nidhidhamnani/markdown-parser/blob/main/MarkdownParse.java) to fix bugs that were found.
 
 ## Code Change 1
-This code change was made as a result of the output when testing the file, [test-file.md](). This was the sympton caused by the test file:
+This code change was made as a result of the output when testing the file, [test-file.md](https://raw.githubusercontent.com/molmedo3/markdown-parser/main/test-file.md). This was the sympton caused by the test file:
 
 ![image](lab2Sympton1.png)
 
@@ -15,7 +15,7 @@ The sympton, which was that the heap ran out of memory due to an infinite loop, 
 
 ## Code Change 2
 
-The next change made was made as a result of the output when the file, [test2.md]() was tested. This was the symtpon:
+The next change made was made as a result of the output when the file, [test2.md](https://raw.githubusercontent.com/molmedo3/markdown-parser/main/test2.md) was tested. This was the symtpon:
 
 ![image](lab2Sympton2.png)
 
@@ -27,4 +27,21 @@ The symptom was an index out of bounds error, resulting from the missing parenth
 
 ## Code Change 3
 
-This code change was provoked by the output when the test3 file was tested. This was the sympton:
+This code change was provoked by the output when the [test3](https://raw.githubusercontent.com/molmedo3/markdown-parser/main/test3.md) file was tested. This was the sympton:
+
+![image](Lab2Sympton3.png)
+
+Although there is not a compiler or runtime error, the output was incorrect. To fix this the following changes were made:
+
+![image](Lab2Bug3Fix.png)
+
+
+This sympton was caused by a bug in the code, which does not check whether it is a link or an image. The failure-inducing input, the test3 file, only contained an image reference, and since the code did not check whether there was a link or image, it caused the image reference to be added to the list that was returned by the getLinks method.
+
+
+**Note**: I had to redo lab 3 because my partner and I did not finish and since I had a different partner for lab 4, I had a intersection with files and such, so I redid lab 3. 
+Here is a link to the commits I made:
+
+[Commit Link](https://github.com/molmedo3/markdown-parser/commits/main)
+
+The only relevant commits for this lab report are those made afterthe "Update to Original" commit.

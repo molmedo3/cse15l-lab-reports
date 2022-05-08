@@ -8,7 +8,7 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 
 - Once it was installed, I opened VS Code and my window looked like this:
 
-![Image](LabReport1Step1.png)
+![Image](labReport1Images\LabReport1Step1.png)
     
 - VS Code might look different because it has various color schemes, styles, and themes.
 
@@ -20,7 +20,7 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 - Once OpenSSH was successfully downloaded, I went back to VS Code and I opened a new terminal, which I did by going to the toolbar in VS Code and pressing terminal, then pressing new terminal (Refer to the picture below).
 
 
-![Image](LabReport1Step2pt1.png)
+![Image](labReport1Images\LabReport1Step2pt1.png)
 
 
 - After I opened the new terminal, I typed in the following command: 
@@ -31,7 +31,7 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 
     and then it asked for my password, but it did not show me my password (which I was confused with at first), once I figured it was normal for security purposes, it showed me my last login, my ip address, and I got a message that told me I was logged in and showed me my cluster status (refer to picture below).
 
-![Image](lab1pt4.png)
+![Image](labReport1Images\lab1pt4.png)
 
 
 
@@ -45,7 +45,7 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 - I got a permision denied message (refer to the picture below) because it was not my account.
 
 
-![Image](lab1pt5.png)
+![Image](labReport1Images\lab1pt5.png)
 
 
 ## Step 4: Moving Files with scp
@@ -73,7 +73,7 @@ This is a tutorial showing how I logged into a course specific account on ieng6.
 which then asked me for my password again. 
 - Then I logged back into ssh and ran "ls" in which the file WhereAmI.java was listed in my home directory (refer to picture below).
 
-![Image](lab1pt.6.png)
+![Image](labReport1Images\lab1pt.6.png)
 
 ## Step 5: Setting an SSH Key
 
@@ -83,7 +83,7 @@ which then asked me for my password again.
     ```
     Then, I typed in y and pressed enter twice so that I did not make a passphrase, which then generated the files public key and private key and I got this output:
 
-![Image](labReportStep6.png)
+![Image](labReport1Images\labReportStep6.png)
 
 
 - Next I copied the public key to the .ssh directory by doing the following in my terminal:
@@ -107,7 +107,7 @@ which then asked me for my password again.
 
 - Once I did this, I logged in again without a password (refer to picture below).
 
-![Image](lab1pt7.png)
+![Image](labReport1Images\lab1pt7.png)
 
 ## Step 6: Optimizing Remote Running
 
@@ -120,7 +120,7 @@ which then asked me for my password again.
 
 - When I ran this, it ask me for my password twice and I got this output:
 
-![Image](LabReportStep6pt2.png)
+![Image](labReport1Images\LabReportStep6pt2.png)
 
 
 - This command showed me the server information and the username, which was the purpose of WhereAmI.java.

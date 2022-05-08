@@ -2,7 +2,7 @@
 This lab report will be implementing all of the Group Choices from [Lab 5](https://docs.google.com/document/d/1NQ17hecUPFKeoFyrEvK9DBlCS1JkDbMW6Ygrf_CJJJU/edit).
 
 ## Streamlineing ssh Configuration
-First a config file was created in the .ssh directory. The picture below shows the the files in the .ssh directory. 
+First a config file was created in the .ssh directory. The picture below shows the config file in the .ssh directory. 
 
 ![image](labReport3Images\LabReport3Configls.png)
 
@@ -29,6 +29,25 @@ The image above shows logging into the remote server:
 This makes logging in much faster and efficient!
 
 ## Setup GitHub Access from ieng6
+The second part of this lab shows the setup for Github Access from ieng6. In order to do this, the public key from the remote computer must be added as a key on GitHub. In order to get the public key, do the following:
+
+```
+>>> ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/jolme/.ssh/id_rsa): /Users/jolme/.ssh/id_rsa_github
+
+```
+
+Once this is done, it should show the key, copy it, and go to GitHub, go to your profile, and go ssh keys, it is on the left side and paste the key in their. This is how my key looks in github
+
+![image](labReport3Images\LabReport3sshOnGitHub.png)
+
+To show the key stored in the user account, I went to .ssh and typed ```ls``` into the command line. Here is a screenshot:
+
+![image](labReport3Images\LabReport3keylocation.png)
+
+
+
 
 
 

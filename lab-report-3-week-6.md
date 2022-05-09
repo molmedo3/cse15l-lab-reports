@@ -47,7 +47,30 @@ To show the key stored in the user account, I went to .ssh and typed ```ls``` in
 ![image](labReport3Images\LabReport3keylocation.png)
 
 
+## Copy whole directories with scp -r
 
+For this last part to copy an entire directory and its contents,log into the ieng6 account and run the command
+
+```>>>scp -r . ieng6:~/markdown-parser```
+
+This causes all of the directory contents to be copied recursively. The gif below shows the contents being copied:
+
+[![Image from Gyazo](https://i.gyazo.com/cc1e03c97af19babde7017dcdd81481c.gif)](https://gyazo.com/cc1e03c97af19babde7017dcdd81481c)
+
+Once it copied over, I logged into my ieng6 account and ran the junit tests. The image below shows the logging into the account and running javac and java on the command line from the remote server:
+
+![image](labReport3Images\LabReport3pt2.png)
+
+After this, I deleted the repository, in order to recopy the repository and its contents over, sign in, and run the test by running the following command once:
+
+```scp -r . ieng6:~/markdown-parser; ssh ieng6 "cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"```
+
+This gif below shows this:
+
+[![Image from Gyazo](https://i.gyazo.com/7d876b65b6f505a1439966340dccd37b.gif)](https://gyazo.com/7d876b65b6f505a1439966340dccd37b)
+
+
+Doing this allows one to copy entire directories and running tests on the files in the directory much more effeciently and quicker!
 
 
 

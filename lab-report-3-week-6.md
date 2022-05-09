@@ -70,7 +70,9 @@ This gif below shows this:
 [![Image from Gyazo](https://i.gyazo.com/7d876b65b6f505a1439966340dccd37b.gif)](https://gyazo.com/7d876b65b6f505a1439966340dccd37b)
 
 
-Doing this allows one to copy entire directories and running tests on the files in the directory much more effeciently and quicker!
+Doing this allows one to copy entire directories and running tests on the files in the directory much more effeciently and qui*cker!
+
+**NOTE:** I could not do git push on my remote account. 
 
 
 

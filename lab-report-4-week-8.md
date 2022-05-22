@@ -29,7 +29,7 @@ When I ran the test on the reviewed markdown-parser repository, it did not pass 
 
 ![image](labReport4Images\snippet1ReviewedTestResult.png)
 
-The error displayed above shows that the expected output did not match my actual output.
+The error displayed above shows that the expected output did not match the actual output.
 
 ## Snippet 2 Results
 
@@ -55,7 +55,7 @@ When I ran the test on the reviewed markdown-parser repository, it did not pass 
 
 ![image](labReport4Images\snippet2ReviewTestResults.png)
 
-The error displayed above shows that the expected output did not match my actual output.
+The error displayed above shows that the expected output did not match the actual output.
 
 ## Snippet 3 Results
 
@@ -81,7 +81,7 @@ When I ran the test on the reviewed markdown-parser repository, it did not pass 
 
 ![image](labReport4Images\snippet3ReviewTestResults.png)
 
-The error displayed above shows that the expected output did not match my actual output.
+The error displayed above shows that the expected output did not match the actual output.
 
 
 

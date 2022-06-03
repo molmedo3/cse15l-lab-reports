@@ -95,7 +95,7 @@ Click [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-fil
 
 - This is a screenshot of where I think the bug is in the provided implementation:
 
-![image](labReport5Images\labReport5Fix483.png)
+![image](labReport5Images\labReport5fix483.png)
 
 In order to fix the provided implementation, in the screenshot above, it is checking for the open and closed brackets. In the highlighted part, we can add an if statement checking for any characters in between the brackets. If it does not have any, then do not add it the link, if it does, add the link. 
 

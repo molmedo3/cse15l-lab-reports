@@ -10,11 +10,11 @@ For this test I will be referring to test file 482.
 
 Click [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/482.md) to access the test file.
 
-## How did I find this test file with a different result? 
+### How did I find this test file with a different result? 
 
 - In order to find this test with a different result, I used vimdiff, and scrolled through until I found a file with a different output than mine. 
 
-## Expected ouptut
+### Expected ouptut
 - Here is a picture of the preview:
 
     ![image](labReport5Images\LabReport5Preview482.png)
@@ -23,7 +23,7 @@ Click [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-fil
     ```
     [/url]
     ```
-## Actual output
+### Actual output
 
 - The following image shows the output of my implementation and the one provided in which I used vimdiff: 
 
@@ -42,7 +42,7 @@ but mine was:
 ```
 On the other hand, the implementation provided was correct since the output matched the expected result.
 
-## Fix
+### Fix
 - This is a screenshot of where I think the bug is:
 ![image](labReport5Images\labReport5Fix482.png)
 
@@ -58,16 +58,16 @@ else if (!markdown.substring(closeBracket,closeBarcket+1).equals("("))
 ```
 
 
-# Test 2
+## Test 2
 For this test I will be referring to test file 483.
 
 Click [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/483.md) to access the test file.
 
-## How did I find this test file with a different result? 
+### How did I find this test file with a different result? 
 
 - To find this test with a different result, I used vimdiff, and scrolled through until I found this file with a different output than mine. 
 
-## Expected ouptut
+### Expected ouptut
 - Here is a picture of the preview:
 
     ![image](labReport5Images\labReport5Preview483.png)
@@ -76,7 +76,7 @@ Click [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-fil
     ```
     []
     ```
-## Actual output
+### Actual output
 - The following image shows the output of my implementation and the one provided in which I used vimdiff: 
 
    ![image](labReport5Images\vimdiff.png)
@@ -91,15 +91,10 @@ Click [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-fil
   ```
 - For this specific test file, my implementation was correct, while the other version's implementation was incorrect since it did add the link when it should not have been added.
 
-## Fix
+### Fix
 
 - This is a screenshot of where I think the bug is in the provided implementation:
 
 ![image](labReport5Images\labReport5fix483.png)
 
 In order to fix the provided implementation, in the screenshot above, it is checking for the open and closed brackets. In the highlighted part, we can add an if statement checking for any characters in between the brackets. If it does not have any, then do not add it the link, if it does, add the link. 
-
-
-
-
- 

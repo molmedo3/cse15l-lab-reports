@@ -70,7 +70,7 @@ Click [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-fil
 ## Expected ouptut
 - Here is a picture of the preview:
 
-    ![image](labReport5Images\LabReport5Preview483.png)
+    ![image](labReport5Images\labReport5Preview483.png)
     
     using this picture, the expected output should be 
     ```
